@@ -1,18 +1,4 @@
-counter = 0
 
-puts "Question 1 - How many sides does a triangle have? "
-puts "A) 4"
-puts "B) 5"
-puts "C) 3"
-
-answer_1 = gets.chomp
-
-if answer_1 == "C"
-  puts "Correct!"
-  counter += 1
-else
-  puts "Incorrect."
-end
 
 puts "Question 1 - How many sides does a square have? "
 puts "A) 5"
